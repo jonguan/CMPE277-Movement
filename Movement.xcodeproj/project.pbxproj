@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDF300B0191DCEF2005BD9E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF300AF191DCEF2005BD9E9 /* Foundation.framework */; };
+		FDF300B2191DCEF2005BD9E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF300B1191DCEF2005BD9E9 /* CoreGraphics.framework */; };
+		FDF300B4191DCEF2005BD9E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF300B3191DCEF2005BD9E9 /* UIKit.framework */; };
+		FDF300BA191DCEF2005BD9E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDF300B8191DCEF2005BD9E9 /* InfoPlist.strings */; };
+		FDF300BC191DCEF2005BD9E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF300BB191DCEF2005BD9E9 /* main.m */; };
+		FDF300C0191DCEF2005BD9E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF300BF191DCEF2005BD9E9 /* AppDelegate.m */; };
+		FDF300C3191DCEF2005BD9E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF300C1191DCEF2005BD9E9 /* Main.storyboard */; };
+		FDF300C6191DCEF2005BD9E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF300C5191DCEF2005BD9E9 /* ViewController.m */; };
+		FDF300C8191DCEF2005BD9E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF300C7191DCEF2005BD9E9 /* Images.xcassets */; };
+		FDF300CF191DCEF2005BD9E9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF300CE191DCEF2005BD9E9 /* XCTest.framework */; };
+		FDF300D0191DCEF2005BD9E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF300AF191DCEF2005BD9E9 /* Foundation.framework */; };
+		FDF300D1191DCEF2005BD9E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF300B3191DCEF2005BD9E9 /* UIKit.framework */; };
+		FDF300D9191DCEF3005BD9E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDF300D7191DCEF3005BD9E9 /* InfoPlist.strings */; };
+		FDF300DB191DCEF3005BD9E9 /* MovementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF300DA191DCEF3005BD9E9 /* MovementTests.m */; };
+		FDF300E5191DCF50005BD9E9 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF300E4191DCF50005BD9E9 /* CoreMotion.framework */; };
+		FDF300E819203B3E005BD9E9 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF300E719203B3E005BD9E9 /* HistoryViewController.m */; };
+		FDF300EB19203C8C005BD9E9 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF300EA19203C8C005BD9E9 /* DataManager.m */; };
+		FDF300EE19203ECB005BD9E9 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDF300EC19203ECB005BD9E9 /* Model.xcdatamodeld */; };
+		FDF300F1192040E2005BD9E9 /* StepEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF300F0192040E2005BD9E9 /* StepEntity.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDF300D2191DCEF3005BD9E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDF300A4191DCEF2005BD9E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDF300AB191DCEF2005BD9E9;
+			remoteInfo = Movement;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDF300AC191DCEF2005BD9E9 /* Movement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Movement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF300AF191DCEF2005BD9E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FDF300B1191DCEF2005BD9E9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FDF300B3191DCEF2005BD9E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FDF300B7191DCEF2005BD9E9 /* Movement-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Movement-Info.plist"; sourceTree = "<group>"; };
+		FDF300B9191DCEF2005BD9E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDF300BB191DCEF2005BD9E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDF300BD191DCEF2005BD9E9 /* Movement-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Movement-Prefix.pch"; sourceTree = "<group>"; };
+		FDF300BE191DCEF2005BD9E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDF300BF191DCEF2005BD9E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDF300C2191DCEF2005BD9E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDF300C4191DCEF2005BD9E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FDF300C5191DCEF2005BD9E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDF300C7191DCEF2005BD9E9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FDF300CD191DCEF2005BD9E9 /* MovementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF300CE191DCEF2005BD9E9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FDF300D6191DCEF3005BD9E9 /* MovementTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MovementTests-Info.plist"; sourceTree = "<group>"; };
+		FDF300D8191DCEF3005BD9E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDF300DA191DCEF3005BD9E9 /* MovementTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovementTests.m; sourceTree = "<group>"; };
+		FDF300E4191DCF50005BD9E9 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		FDF300E619203B3E005BD9E9 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		FDF300E719203B3E005BD9E9 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		FDF300E919203C8C005BD9E9 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		FDF300EA19203C8C005BD9E9 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		FDF300ED19203ECB005BD9E9 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		FDF300EF192040E2005BD9E9 /* StepEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepEntity.h; sourceTree = "<group>"; };
+		FDF300F0192040E2005BD9E9 /* StepEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepEntity.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDF300A9191DCEF2005BD9E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF300E5191DCF50005BD9E9 /* CoreMotion.framework in Frameworks */,
+				FDF300B2191DCEF2005BD9E9 /* CoreGraphics.framework in Frameworks */,
+				FDF300B4191DCEF2005BD9E9 /* UIKit.framework in Frameworks */,
+				FDF300B0191DCEF2005BD9E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF300CA191DCEF2005BD9E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF300CF191DCEF2005BD9E9 /* XCTest.framework in Frameworks */,
+				FDF300D1191DCEF2005BD9E9 /* UIKit.framework in Frameworks */,
+				FDF300D0191DCEF2005BD9E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDF300A3191DCEF2005BD9E9 = {
+			isa = PBXGroup;
+			children = (
+				FDF300B5191DCEF2005BD9E9 /* Movement */,
+				FDF300D4191DCEF3005BD9E9 /* MovementTests */,
+				FDF300AE191DCEF2005BD9E9 /* Frameworks */,
+				FDF300AD191DCEF2005BD9E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDF300AD191DCEF2005BD9E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDF300AC191DCEF2005BD9E9 /* Movement.app */,
+				FDF300CD191DCEF2005BD9E9 /* MovementTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDF300AE191DCEF2005BD9E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDF300E4191DCF50005BD9E9 /* CoreMotion.framework */,
+				FDF300AF191DCEF2005BD9E9 /* Foundation.framework */,
+				FDF300B1191DCEF2005BD9E9 /* CoreGraphics.framework */,
+				FDF300B3191DCEF2005BD9E9 /* UIKit.framework */,
+				FDF300CE191DCEF2005BD9E9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDF300B5191DCEF2005BD9E9 /* Movement */ = {
+			isa = PBXGroup;
+			children = (
+				FDF300BE191DCEF2005BD9E9 /* AppDelegate.h */,
+				FDF300BF191DCEF2005BD9E9 /* AppDelegate.m */,
+				FDF300C1191DCEF2005BD9E9 /* Main.storyboard */,
+				FDF300C4191DCEF2005BD9E9 /* ViewController.h */,
+				FDF300C5191DCEF2005BD9E9 /* ViewController.m */,
+				FDF300C7191DCEF2005BD9E9 /* Images.xcassets */,
+				FDF300B6191DCEF2005BD9E9 /* Supporting Files */,
+				FDF300E619203B3E005BD9E9 /* HistoryViewController.h */,
+				FDF300E719203B3E005BD9E9 /* HistoryViewController.m */,
+				FDF300E919203C8C005BD9E9 /* DataManager.h */,
+				FDF300EA19203C8C005BD9E9 /* DataManager.m */,
+				FDF300EC19203ECB005BD9E9 /* Model.xcdatamodeld */,
+				FDF300EF192040E2005BD9E9 /* StepEntity.h */,
+				FDF300F0192040E2005BD9E9 /* StepEntity.m */,
+			);
+			path = Movement;
+			sourceTree = "<group>";
+		};
+		FDF300B6191DCEF2005BD9E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDF300B7191DCEF2005BD9E9 /* Movement-Info.plist */,
+				FDF300B8191DCEF2005BD9E9 /* InfoPlist.strings */,
+				FDF300BB191DCEF2005BD9E9 /* main.m */,
+				FDF300BD191DCEF2005BD9E9 /* Movement-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDF300D4191DCEF3005BD9E9 /* MovementTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDF300DA191DCEF3005BD9E9 /* MovementTests.m */,
+				FDF300D5191DCEF3005BD9E9 /* Supporting Files */,
+			);
+			path = MovementTests;
+			sourceTree = "<group>";
+		};
+		FDF300D5191DCEF3005BD9E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDF300D6191DCEF3005BD9E9 /* MovementTests-Info.plist */,
+				FDF300D7191DCEF3005BD9E9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDF300AB191DCEF2005BD9E9 /* Movement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF300DE191DCEF3005BD9E9 /* Build configuration list for PBXNativeTarget "Movement" */;
+			buildPhases = (
+				FDF300A8191DCEF2005BD9E9 /* Sources */,
+				FDF300A9191DCEF2005BD9E9 /* Frameworks */,
+				FDF300AA191DCEF2005BD9E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Movement;
+			productName = Movement;
+			productReference = FDF300AC191DCEF2005BD9E9 /* Movement.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDF300CC191DCEF2005BD9E9 /* MovementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF300E1191DCEF3005BD9E9 /* Build configuration list for PBXNativeTarget "MovementTests" */;
+			buildPhases = (
+				FDF300C9191DCEF2005BD9E9 /* Sources */,
+				FDF300CA191DCEF2005BD9E9 /* Frameworks */,
+				FDF300CB191DCEF2005BD9E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDF300D3191DCEF3005BD9E9 /* PBXTargetDependency */,
+			);
+			name = MovementTests;
+			productName = MovementTests;
+			productReference = FDF300CD191DCEF2005BD9E9 /* MovementTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDF300A4191DCEF2005BD9E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Scanadu, Inc";
+				TargetAttributes = {
+					FDF300CC191DCEF2005BD9E9 = {
+						TestTargetID = FDF300AB191DCEF2005BD9E9;
+					};
+				};
+			};
+			buildConfigurationList = FDF300A7191DCEF2005BD9E9 /* Build configuration list for PBXProject "Movement" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDF300A3191DCEF2005BD9E9;
+			productRefGroup = FDF300AD191DCEF2005BD9E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDF300AB191DCEF2005BD9E9 /* Movement */,
+				FDF300CC191DCEF2005BD9E9 /* MovementTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDF300AA191DCEF2005BD9E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF300C8191DCEF2005BD9E9 /* Images.xcassets in Resources */,
+				FDF300BA191DCEF2005BD9E9 /* InfoPlist.strings in Resources */,
+				FDF300C3191DCEF2005BD9E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF300CB191DCEF2005BD9E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF300D9191DCEF3005BD9E9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDF300A8191DCEF2005BD9E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF300C6191DCEF2005BD9E9 /* ViewController.m in Sources */,
+				FDF300EB19203C8C005BD9E9 /* DataManager.m in Sources */,
+				FDF300C0191DCEF2005BD9E9 /* AppDelegate.m in Sources */,
+				FDF300BC191DCEF2005BD9E9 /* main.m in Sources */,
+				FDF300F1192040E2005BD9E9 /* StepEntity.m in Sources */,
+				FDF300E819203B3E005BD9E9 /* HistoryViewController.m in Sources */,
+				FDF300EE19203ECB005BD9E9 /* Model.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF300C9191DCEF2005BD9E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF300DB191DCEF3005BD9E9 /* MovementTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDF300D3191DCEF3005BD9E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDF300AB191DCEF2005BD9E9 /* Movement */;
+			targetProxy = FDF300D2191DCEF3005BD9E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDF300B8191DCEF2005BD9E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF300B9191DCEF2005BD9E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FDF300C1191DCEF2005BD9E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF300C2191DCEF2005BD9E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDF300D7191DCEF3005BD9E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF300D8191DCEF3005BD9E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDF300DC191DCEF3005BD9E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDF300DD191DCEF3005BD9E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDF300DF191DCEF3005BD9E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Movement/Movement-Prefix.pch";
+				INFOPLIST_FILE = "Movement/Movement-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FDF300E0191DCEF3005BD9E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Movement/Movement-Prefix.pch";
+				INFOPLIST_FILE = "Movement/Movement-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FDF300E2191DCEF3005BD9E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Movement.app/Movement";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Movement/Movement-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MovementTests/MovementTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FDF300E3191DCEF3005BD9E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Movement.app/Movement";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Movement/Movement-Prefix.pch";
+				INFOPLIST_FILE = "MovementTests/MovementTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDF300A7191DCEF2005BD9E9 /* Build configuration list for PBXProject "Movement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF300DC191DCEF3005BD9E9 /* Debug */,
+				FDF300DD191DCEF3005BD9E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF300DE191DCEF3005BD9E9 /* Build configuration list for PBXNativeTarget "Movement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF300DF191DCEF3005BD9E9 /* Debug */,
+				FDF300E0191DCEF3005BD9E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF300E1191DCEF3005BD9E9 /* Build configuration list for PBXNativeTarget "MovementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF300E2191DCEF3005BD9E9 /* Debug */,
+				FDF300E3191DCEF3005BD9E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FDF300EC19203ECB005BD9E9 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FDF300ED19203ECB005BD9E9 /* Model.xcdatamodel */,
+			);
+			currentVersion = FDF300ED19203ECB005BD9E9 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FDF300A4191DCEF2005BD9E9 /* Project object */;
+}
